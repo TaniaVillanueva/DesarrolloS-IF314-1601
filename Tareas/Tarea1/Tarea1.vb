@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Tarea1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         'Declaración de variables
         Dim acum1, acum2, acum3, acum4, exam1, exam2, exam3, exam4 As Integer
