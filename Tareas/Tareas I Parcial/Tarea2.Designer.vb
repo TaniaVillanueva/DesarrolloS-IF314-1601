@@ -32,6 +32,7 @@ Partial Class Tarea2
         Me.lbAprobados = New System.Windows.Forms.ListBox()
         Me.lbReprobados = New System.Windows.Forms.ListBox()
         Me.lbExcelencia = New System.Windows.Forms.ListBox()
+        Me.lbLimpiar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -115,11 +116,21 @@ Partial Class Tarea2
         Me.lbExcelencia.Size = New System.Drawing.Size(555, 95)
         Me.lbExcelencia.TabIndex = 9
         '
+        'lbLimpiar
+        '
+        Me.lbLimpiar.Location = New System.Drawing.Point(329, 85)
+        Me.lbLimpiar.Name = "lbLimpiar"
+        Me.lbLimpiar.Size = New System.Drawing.Size(101, 46)
+        Me.lbLimpiar.TabIndex = 10
+        Me.lbLimpiar.Text = "Limpiar"
+        Me.lbLimpiar.UseVisualStyleBackColor = True
+        '
         'Tarea2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(577, 456)
+        Me.Controls.Add(Me.lbLimpiar)
         Me.Controls.Add(Me.lbExcelencia)
         Me.Controls.Add(Me.lbReprobados)
         Me.Controls.Add(Me.lbAprobados)
@@ -147,4 +158,5 @@ Partial Class Tarea2
     Friend WithEvents lbAprobados As ListBox
     Friend WithEvents lbReprobados As ListBox
     Friend WithEvents lbExcelencia As ListBox
+    Friend WithEvents lbLimpiar As Button
 End Class
